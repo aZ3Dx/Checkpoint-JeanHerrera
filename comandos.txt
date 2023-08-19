@@ -1,0 +1,26 @@
+    1  mkdir Checkpoint-JeanHerrera
+    2  cd Checkpoint-JeanHerrera/
+    3  git remote add origin git@github.com:aZ3Dx/Checkpoint-JeanHerrera.git
+    4  git init
+    5  git remote add origin git@github.com:aZ3Dx/Checkpoint-JeanHerrera.git
+    6  touch main.js index.html
+    7  git add .
+    8  git commit -m "commit 01 de JeanHerrera"
+    9  git push
+   10  git push origin main
+   11  git branch feature
+   12  git checkout feature 
+   13  mkdir Hardware Software SeguridadInformatica
+   14  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+   15  git status
+   16  git add .
+   17  git commit -m "commit 02 de JeanHerrera"
+   18  git push origin feature
+   19  git checkout main
+   20  mv main.js resumenHardware.txt index.html resumenSoftware.txt
+   21  mv main.js resumenHardware.txt
+   22  mv index.html resumenSoftware.txt
+   23  nano resumenHardware.txt 
+   24  cat resumenHardware.txt > resumenSoftware.txt 
+   25  nano resumenHardware.txt 
+   26  history > comandos.txt
