@@ -24,3 +24,7 @@
    24  cat resumenHardware.txt > resumenSoftware.txt 
    25  nano resumenHardware.txt 
    26  history > comandos.txt
+   27  git add .
+   28  git commit -m "commite 03 de JeanHerrera"
+   29  git push origin main
+   30  history > comandos.txt 
